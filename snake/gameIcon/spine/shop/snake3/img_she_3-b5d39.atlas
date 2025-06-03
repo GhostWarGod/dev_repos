@@ -1,0 +1,20 @@
+
+img_she_3.png
+size: 127,54
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/a1
+  rotate: false
+  xy: 75, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+images/a9
+  rotate: false
+  xy: 2, 2
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1

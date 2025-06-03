@@ -1,0 +1,13 @@
+
+img_bj.png
+size: 1664,1028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1660, 1024
+  orig: 1660, 1024
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+img_she_1.png
+size: 127,54
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/a1
+  rotate: false
+  xy: 75, 2
+  size: 50, 50
+  orig: 52, 52
+  offset: 1, 1
+  index: -1
+images/a9
+  rotate: false
+  xy: 2, 2
+  size: 71, 50
+  orig: 73, 52
+  offset: 1, 1
+  index: -1

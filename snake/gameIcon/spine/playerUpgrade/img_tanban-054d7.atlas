@@ -1,0 +1,76 @@
+
+img_tanban.png
+size: 1928,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 842, 4
+  size: 492, 491
+  orig: 504, 500
+  offset: 6, 4
+  index: -1
+10
+  rotate: false
+  xy: 2, 2
+  size: 838, 494
+  orig: 838, 494
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 1637, 58
+  size: 147, 146
+  orig: 151, 151
+  offset: 2, 3
+  index: -1
+12
+  rotate: true
+  xy: 1785, 94
+  size: 111, 114
+  orig: 116, 117
+  offset: 2, 2
+  index: -1
+13
+  rotate: false
+  xy: 1785, 26
+  size: 63, 66
+  orig: 67, 69
+  offset: 2, 2
+  index: -1
+14
+  rotate: true
+  xy: 1850, 30
+  size: 62, 66
+  orig: 67, 69
+  offset: 3, 2
+  index: -1
+15
+  rotate: false
+  xy: 1335, 81
+  size: 111, 113
+  orig: 116, 118
+  offset: 3, 3
+  index: -1
+2
+  rotate: false
+  xy: 1637, 207
+  size: 289, 289
+  orig: 291, 291
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 1335, 12
+  size: 43, 44
+  orig: 47, 48
+  offset: 2, 2
+  index: -1
+9
+  rotate: false
+  xy: 1335, 196
+  size: 300, 300
+  orig: 320, 320
+  offset: 10, 10
+  index: -1

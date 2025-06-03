@@ -1,0 +1,144 @@
+{
+"skeleton": { "hash": "8rIgYMPaVKH21iGpj9sappPt/L4", "spine": "3.8.99", "x": -236.52, "y": -143.14, "width": 477, "height": 300 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone9", "parent": "root", "x": -0.58, "y": -97.1 },
+	{ "name": "bone10", "parent": "bone9", "x": 1.27, "y": 109.39 },
+	{ "name": "bone11", "parent": "bone10", "length": 48.97, "rotation": 90, "x": 50.88, "y": -36.25 },
+	{ "name": "bone12", "parent": "bone10", "length": 67.42, "rotation": 90.54, "x": -160.91, "y": 72.5 }
+],
+"slots": [
+	{ "name": "a34", "bone": "bone12", "attachment": "a34" },
+	{ "name": "a35", "bone": "bone10", "attachment": "a35" },
+	{ "name": "jhjj", "bone": "bone10", "attachment": "jhjj" },
+	{ "name": "a44", "bone": "bone11", "attachment": "a44" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"a34": {
+				"a34": { "x": 5.65, "y": 8.25, "rotation": -90.54, "width": 108, "height": 133 }
+			},
+			"a35": {
+				"a35": { "x": 1.29, "y": -20.92, "width": 477, "height": 269 }
+			},
+			"a44": {
+				"a44": { "x": 22.33, "y": 1.59, "rotation": -90, "width": 45, "height": 49 }
+			},
+			"jhjj": {
+				"jhjj": {
+					"type": "clipping",
+					"end": "a44",
+					"vertexCount": 20,
+					"vertices": [ 25.16, -23.42, 32.59, -27.16, 34.53, -28.67, 36.89, -31.91, 38.24, -34.63, 39.83, -30.64, 41.76, -28.54, 44.63, -27.03, 47.05, -26.16, 49.54, -25.45, 52.73, -24.97, 55.35, -24.88, 58.84, -24.66, 62.25, -25.01, 66.38, -25.59, 83.12, -31.91, 93.88, -3.75, 60.97, 45.3, 9.84, 28.74, -6.1, -4.17 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone10": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9667, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8667, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.7667, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.7333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 6.6667, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.6333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8.5667, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.5333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 10.5, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 11.4333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 12.4, "y": -11.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 13.3333 }
+				]
+			},
+			"bone12": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.3333, "angle": -12.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "angle": -12.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 6.6667, "angle": -12.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.3333, "angle": -12.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 10.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 12, "angle": -12.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 13.3333 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2.6667, "curve": "stepped" },
+					{ "time": 5.3333, "curve": "stepped" },
+					{ "time": 8, "curve": "stepped" },
+					{ "time": 10.6667, "curve": "stepped" },
+					{ "time": 13.3333 }
+				]
+			},
+			"bone11": {
+				"rotate": [
+					{},
+					{ "time": 0.2, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.2, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4333, "curve": "stepped" },
+					{ "time": 6.6667 },
+					{ "time": 6.8667, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.0667, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.2667, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.4667, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.6667, "angle": -8.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.8667, "angle": 5.23, "curve": 0.25, "c3": 0.75 },
+					{ "time": 8.1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 2.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "y": 5.54, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8333, "y": -49.9, "curve": "stepped" },
+					{ "time": 4, "y": -49.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.2667, "y": 4.85, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.5, "curve": "stepped" },
+					{ "time": 4.7, "curve": "stepped" },
+					{ "time": 6.6667, "curve": "stepped" },
+					{ "time": 9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.3333, "y": 5.54, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.5, "y": -49.9, "curve": "stepped" },
+					{ "time": 10.6667, "y": -49.9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 10.9333, "y": 4.85, "curve": 0.25, "c3": 0.75 },
+					{ "time": 11.1667, "curve": "stepped" },
+					{ "time": 11.3667 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 2.3333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.6667, "x": 1.062, "y": 0.924, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8333, "curve": "stepped" },
+					{ "time": 4, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.2667, "x": 1.111, "y": 0.951, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.5, "x": 0.938, "y": 1.097, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.7, "curve": "stepped" },
+					{ "time": 6.6667, "curve": "stepped" },
+					{ "time": 9, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.3333, "x": 1.062, "y": 0.924, "curve": 0.25, "c3": 0.75 },
+					{ "time": 9.5, "curve": "stepped" },
+					{ "time": 10.6667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 10.9333, "x": 1.111, "y": 0.951, "curve": 0.25, "c3": 0.75 },
+					{ "time": 11.1667, "x": 0.938, "y": 1.097, "curve": 0.25, "c3": 0.75 },
+					{ "time": 11.3667 }
+				]
+			}
+		}
+	}
+}
+}
