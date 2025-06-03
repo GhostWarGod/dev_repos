@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "D:/ED哥11.8/egg/image/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "a1", "bone": "root", "attachment": "a1" },
+	{ "name": "a2", "bone": "root", "attachment": "a2" },
+	{ "name": "a3", "bone": "root", "attachment": "a3" },
+	{ "name": "a4", "bone": "root", "attachment": "a4" },
+	{ "name": "a5", "bone": "root", "attachment": "a5" },
+	{ "name": "a6", "bone": "root", "attachment": "a6" },
+	{ "name": "a7", "bone": "root", "attachment": "a7" },
+	{ "name": "a8", "bone": "root", "attachment": "a8" },
+	{ "name": "a9", "bone": "root", "attachment": "a9" }
+],
+"skins": {
+	"default": {
+		"a1": {
+			"a1": { "x": 36, "y": -25, "width": 52, "height": 52 }
+		},
+		"a2": {
+			"a2": { "x": 36, "y": -41, "width": 52, "height": 52 }
+		},
+		"a3": {
+			"a3": { "x": 36, "y": -57, "width": 52, "height": 52 }
+		},
+		"a4": {
+			"a4": { "x": 36, "y": -73, "width": 52, "height": 52 }
+		},
+		"a5": {
+			"a5": { "x": 36, "y": -89, "width": 52, "height": 52 }
+		},
+		"a6": {
+			"a6": { "x": 36, "y": -105, "width": 52, "height": 52 }
+		},
+		"a7": {
+			"a7": { "x": 36, "y": -120, "width": 52, "height": 52 }
+		},
+		"a8": {
+			"a8": { "x": 36, "y": -137, "width": 52, "height": 52 }
+		},
+		"a9": {
+			"a9": { "x": 35.5, "y": -152, "width": 73, "height": 52 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
