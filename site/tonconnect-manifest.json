@@ -1,7 +1,10 @@
 {
   "name": "Telegram Wallet",
-  "url": "https://cryptoarena.io",  
-  "iconUrl": "https://cryptoarena.io/images/logo.jpg",
-  "termsOfUseUrl": "https://cryptoarena.io/terms.txt",
-  "privacyPolicyUrl": "https://cryptoarena.io/privacy.txt"
+  "url": "https://queengame.io",  
+  "iconUrl": "https://queengame.io/images/logo.jpg",
+  "termsOfUseUrl": "https://queengame.io/terms.txt",
+  "privacyPolicyUrl": "https://queengame.io/privacy.txt",
+  "tonProof": {
+    "enabled": true
+  }
 }
