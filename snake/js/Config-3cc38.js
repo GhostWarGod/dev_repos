@@ -6,7 +6,14 @@
  * @LastEditors: hjy
  * @LastEditTime: 2025-05-30 20:45:12
  */
-var game_version = "V_0530_03";
+var game_version = "V_0603_02";
+
+
+//Buffer
+// var Buffer_1 = require("buffer");
+// Object.defineProperty(exports, "Buffer", { enumerable: true, get: function () { return Buffer_1.Buffer; } });
+// var Buffer = Buffer_1.Buffer;
+// window.Buffer = Buffer;
 
 function getGameVersion() {
     return game_version;

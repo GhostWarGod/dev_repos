@@ -15,6 +15,14 @@
     <meta http-equiv='expires' content='0' />
     <meta http-equiv='Cache-Control' content='no-siteapp' />
     <link rel="icon" href="favicon.ico">
+    <!-- <script src="js/buffer.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/buffer@6.0.3/index.min.js"></script>
+    <script>
+        window.Buffer = Buffer; // 暴露为全局变量
+        console.log(window.Buffer);
+    </script> -->
+    <link rel="stylesheet" href="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 
 <body style="margin: 0;background: linear-gradient(to bottom, #133570, #1179b5);color: #fff;">
@@ -148,10 +156,9 @@
     <script type="text/javascript" src="libs/laya.spine-7e80a.js"></script>
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
-    <script type="text/javascript" src="js/domparserinone-6030d.js"></script>
-    <script type="text/javascript" src="js/Config-5e281.js"></script>
-    <script type="text/javascript" src="js/bundle-3bb42.js"></script>
-    <script type="text/javascript" src="js/index-ea933.js"></script>
+    <script type="text/javascript" src="js/Config-3cc38.js"></script>
+    <script type="text/javascript" src="js/bundle-f37b0.js"></script>
+    <script type="text/javascript" src="js/index-8b994.js"></script>
 
 
 
@@ -525,28 +532,8 @@
 
     <!-- <script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script> -->
     <script>
-        // window.onload = function () {
-        //     initLiveChat();
-        //     if (window.Telegram && window.Telegram.WebApp) {
-        //         const webApp = window.Telegram.WebApp;
-
-        //         // Request full screen
-        //         webApp.expand();
-
-        //         // Set up initial app properties if needed
-        //         webApp.onEvent('viewportChanged', () => {
-        //             // React to viewport changes if necessary
-        //             console.log("Viewport changed to:", webApp.viewportHeight);
-        //         });
-        //     } else {
-        //         console.error("Telegram Web App API is not available.");
-        //     }
-        // }
-        // 初始化
-        // new VConsole();
     </script>
-
+    <div id="ton-connect" style="position: relative; z-index: 9999;"></div>
 
 </body>
-
 </html>
