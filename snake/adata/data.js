@@ -4,11 +4,14 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-06-03 15:06:23
+ * @LastEditTime: 2025-06-05 10:29:04
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
 
+//服务器path
 
+
+window.server1 = "https://sso.queengame.io/auth/login"; //测试环境
 window.wsServer1 = "wss://wss-hall.queengame.io"; //测试环境
 
 
