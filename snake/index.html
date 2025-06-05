@@ -36,13 +36,8 @@
             transition: opacity ease-in-out 300ms;
             transform-origin: left top;
 
-            background-color: {
-                    {
-                    splashBgColor
-                }
-            }
+            background-color: #000000;
 
-            ;
         }
 
         .splash-image {
@@ -91,7 +86,7 @@
         (function () {
             let splash = document.getElementById('splash');
             let sm = "horizontal";
-            let du = parseInt("100");
+            let du = parseInt("2000");
             let ss = performance.now();
 
             function fit() {
@@ -124,6 +119,7 @@
             }
 
             function hide() {
+                // return;
                 window.removeEventListener("resize", fit);
                 delete window.hideSplashScreen;
 
@@ -156,9 +152,9 @@
     <script type="text/javascript" src="libs/laya.spine-7e80a.js"></script>
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
     <script type="text/javascript" src="js/astar-bb110.js"></script>
-    <script type="text/javascript" src="js/Config-ac2b2.js"></script>
-    <script type="text/javascript" src="js/bundle-f41d5.js"></script>
-    <script type="text/javascript" src="js/index-fee94.js"></script>
+    <script type="text/javascript" src="js/Config-5485a.js"></script>
+    <script type="text/javascript" src="js/bundle-f3635.js"></script>
+    <script type="text/javascript" src="js/index-8d4aa.js"></script>
 
 
 
