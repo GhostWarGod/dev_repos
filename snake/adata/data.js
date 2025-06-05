@@ -2,7 +2,7 @@ window.v_type = 1;
 
 
 window.server1 = "https://sso.queengame.io"; //测试环境
-window.wsServer1 = "wss://wss-hall.queengame.io"; //测试环境
+window.wsServer1 = "wss://wss-hall-1.queengame.io"; //测试环境
 
 
 var nodeData = [
