@@ -517,35 +517,6 @@ function WalletComponent() {
   const [randomHex] = (0,react.useState)(web3.utils.randomHex(32));
   const [signShow, setSignShow] = (0,react.useState)(false);
   const [queryString, setQueryString] = (0,react.useState)("");
-
-  // const handleLogin = async () => {
-  // 	const toxStorageTelegram = localStorage.getItem("TOX-COOKIE-CODE_Telegram")
-  // 	const str = decode(toxStorageTelegram);
-  // 	const array = signTelegramArray(str);
-  // 	const loginForm = {
-  // 		...array,
-  // 		nonBounceableAddress: wallet.account.address,
-  // 	}
-  // 	console.log("loginForm===>", loginForm)
-
-  // 	const data = {
-  // 		type: 2,
-  // 		loginTonData: loginForm
-  // 	}
-  // 	console.log("data===>", data)
-
-  // 	instance.post(`${axiosUrl}/auth/login`, data)
-  // 	.then(function (res) {
-  // 		console.log("res===>", res)
-  // 		if (res.code === 200) {
-  // 			alert("登录成功")
-  // 		}
-  // 	})
-  // 	.catch(function (error) {
-  // 		console.log("sign login error===>", error);
-  // 	});
-  // }
-
   const signDataLogin = async account => {
     if (account) {
       setTimeout(() => {
@@ -567,24 +538,26 @@ function WalletComponent() {
         };
 
         // 对于 Telegram Wallet，必须引导跳转
-        if (wallet.device.appName.toLowerCase().includes("telegram")) {
-          setTimeout(() => {
-            window.location.href = wallet.universalLink;
-          }, 2000);
-        }
+        // if (wallet.device.appName.toLowerCase().includes("telegram")) {
+        // 	setTimeout(() => {
+        // 		window.location.href = wallet.universalLink;
+        // 	}, 2000);
+        // }
+
         tonConnectUi.signData(payload).then(res => {
           console.log("签名成功===>", res);
           const _code = (0,encryption/* encode */.lF)(res.timestamp + "&" + randomHex + "&" + res.signature + "&" + res.domain + "&" + publicKey);
           localStorage.setItem("TOX-COOKIE-CODE_Telegram", _code);
-          setTimeout(() => {
-            // handleLogin()
-            if (queryString) {
-              window.location.href = "/" + queryString;
-            } else {
-              window.location.href = "/";
-            }
-            setSignShow(true);
-          }, 200);
+
+          // setTimeout(() => {
+          // 	if (queryString) {
+          // 		window.location.href = "/" + queryString
+          // 	} else {
+          // 		window.location.href = "/"
+          // 	}
+
+          // 	setSignShow(true)
+          // }, 200);
         });
       }, 200);
     }
@@ -593,9 +566,7 @@ function WalletComponent() {
     signDataLogin(wallet && wallet.account);
   }, [wallet]);
   (0,react.useEffect)(() => {
-    const queryssString = window.location.search; // 带问号，例如：?scene=startup&referral=4Z6E9AJA&lan=zh-cn
-    // const queryWithoutQuestionMark = queryssString.slice(1); // 去掉问号
-    // console.log("queryssString===>", queryssString);
+    const queryssString = window.location.search; // 带问号，例如：?scene=startup&referral=xxx&lan=zh-cn
     setQueryString(queryssString);
   }, []);
   return /*#__PURE__*/react.createElement(CustomStyle, null, /*#__PURE__*/react.createElement("div", {
