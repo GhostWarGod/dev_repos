@@ -4,13 +4,13 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-06-11 19:44:54
+ * @LastEditTime: 2025-06-17 16:01:33
  */
 window.v_type = 1   ; //0=QA；1=S0; 2=SN;
 
 //服务器path
 window.server2 = "https://sso.cryptoarena.io"; //正式环境
-window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境    
+window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境
 // window.address2 = "https://snake.cryptoarena.io; //外网-sn-web地址 (线上正式)
 
 window.server1 = "https://sso.queengame.io"; //测试环境
@@ -22,7 +22,7 @@ window.wsServer0 = "ws://13.250.6.10:7055"; //开发服-qa-徐服务器
 
 var nodeData = [
     {
-        area: 1010, 
+        area: 1010,
         open: 1,
         point: "1_00",
         socketUrl: "ws://13.250.6.10:7056",
