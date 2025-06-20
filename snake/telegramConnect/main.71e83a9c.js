@@ -517,19 +517,9 @@ function WalletComponent() {
   const wallet = (0,lib/* useTonWallet */.c5)();
   const [randomHex] = (0,react.useState)(web3.utils.randomHex(32));
   const [queryString, setQueryString] = (0,react.useState)("");
-  const setCookie = (name, value) => {
-    document.cookie = `${name}=${encodeURIComponent(value)}; path=/`;
-  };
-  const getCookie = name => {
-    var _document$cookie$spli;
-    return ((_document$cookie$spli = document.cookie.split('; ').find(row => row.startsWith(name + '='))) == null ? void 0 : _document$cookie$spli.split('=')[1]) || null;
-  };
   const signDataLogin = async account => {
     if (account) {
       setTimeout(() => {
-        // setCookie("tox_telegram_address", account?.address)
-        localStorage.setItem("tox_telegram_address", account == null ? void 0 : account.address);
-
         // 获取公钥
         const publicKey = account == null ? void 0 : account.publicKey;
 
@@ -555,10 +545,8 @@ function WalletComponent() {
         }
         tonConnectUi.signData(payload).then(res => {
           console.log("签名成功===>", res);
-          const _code = (0,encryption/* encode */.lF)(res.timestamp + "&" + randomHex + "&" + res.signature + "&" + res.domain + "&" + publicKey);
+          const _code = (0,encryption/* encode */.lF)(res.timestamp + "&" + randomHex + "&" + res.signature + "&" + res.domain + "&" + publicKey + "&" + (account == null ? void 0 : account.address));
           localStorage.setItem("TOX-COOKIE-CODE_Telegram", _code);
-          // setCookie("tox_telegram_address", account?.address)
-          localStorage.setItem("tox_telegram_address", account == null ? void 0 : account.address);
           setTimeout(() => {
             if (queryString) {
               window.location.href = "/" + queryString;
