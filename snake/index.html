@@ -22,7 +22,21 @@
         console.log(window.Buffer);
     </script> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.css"> -->
-    <script src="./telegram-web-app.js"></script>
+    <script type="text/javascript">
+
+        // 若运营需要修改room.json，替换aTable目录下的room.json文件，并且请修改此版本号
+
+        // 0 = 读取程序中的room  （每次程序打完包，都会拉取最新的json，并且重置为0）
+        // 例如： window.v_table = 0;
+
+        // 具体版本号时，读取aTable文件夹中的room
+        // 例如： window.v_table = 25062301;
+
+        window.v_table = 0;
+
+    </script>
+
+    <!-- <script src="./telegram-web-app.js"></script> -->
     <script src="./qrcode.min.js"></script>
 </head>
 
@@ -68,6 +82,7 @@
             text-shadow: 1px 1px 2px rgb(0, 0, 0);
             font-size: 16px;
         }
+
         .logo {
             /* display: block;
             width: 220px; */
@@ -168,9 +183,9 @@
     <script type="text/javascript" src="libs/laya.ani-d6b33.js"></script>
     <script type="text/javascript" src="libs/laya.spine-7e80a.js"></script>
     <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
-    <script type="text/javascript" src="js/Config-048fa.js"></script>
-    <script type="text/javascript" src="js/bundle-ea88a.js"></script>
-    <script type="text/javascript" src="js/index-52ac0.js"></script>
+    <script type="text/javascript" src="js/Config-7a116.js"></script>
+    <script type="text/javascript" src="js/bundle-efeb8.js"></script>
+    <script type="text/javascript" src="js/index-1f9fe.js"></script>
 
 
 
@@ -548,9 +563,10 @@
     <div id="ton-connect" style="position: relative; z-index: 9999;"></div>
 
 </body>
-<!-- <script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>
 		<script>
 				// 初始化
 				new VConsole();
-		</script> -->
+		</script>
+
 </html>
