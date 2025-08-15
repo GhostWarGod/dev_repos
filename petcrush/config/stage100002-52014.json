@@ -1,0 +1,1 @@
+{"1":{"maxType":6,"obstaclesDetail":{"3,4":103,"5,5":101},"tips":"优先消除冰块！","stepLimit":30,"obstacles":{"41":101,"30":103},"items":[],"id":1,"bossHp":12000,"timeLimit":90000},"2":{"maxType":6,"obstaclesDetail":{"4,6":103,"2,2":102,"6,3":101},"tips":"注意障碍！","stepLimit":30,"obstacles":{"24":101,"49":103,"11":102},"items":[],"id":2,"bossHp":12000,"timeLimit":90000}}
