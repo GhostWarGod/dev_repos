@@ -4,7 +4,7 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-08-01 11:22:47
+ * @LastEditTime: 2025-09-03 11:05:47
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
 
@@ -13,9 +13,9 @@ window.server2 = "https://sso.cryptoarena.io"; //正式环境
 window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境
 // window.address2 = "https://snake.cryptoarena.io; //外网-sn-web地址 (线上正式)
 
-window.server1 = "https://sso.queengame.io"; //测试环境
-window.wsServer1 = "wss://wss-hall-1.queengame.io"; //测试环境
-// window.address1 = "https://snake.queengame.io"; //外网-s0-web地址 (线上测试)
+window.server1 = "https://sso.candyhouse.vip"; //测试环境
+window.wsServer1 = "wss://wss-hall-1.candyhouse.vip"; //测试环境
+// window.address1 = "https://petcrush.candyhouse.vip"; //外网-s0-web地址 (线上测试)
 
 window.server0 = "http://13.250.6.10"; //开发环境
 window.wsServer0 = "ws://13.250.6.10:7055"; //开发服-qa-徐服务器
@@ -28,37 +28,37 @@ var nodeData = [
         socketUrl: "ws://13.250.6.10:7056",
         id: 3001,
         name: 1010,
-        url: "https://wss-room-sg.queengame.io",
+        url: "https://wss-room-sg.candyhouse.vip",
         type: 0
     },
     {
         area: 1010,
         open: 1,
         point: "1_00",
-        socketUrl: "wss://wss-room-sg.queengame.io",
+        socketUrl: "wss://wss-room-sg.candyhouse.vip",
         id: 1001,
         name: 1010,
-        url: "https://wss-room-sg.queengame.io",
+        url: "https://wss-room-sg.candyhouse.vip",
         type: 1
     },
     {
         area: 1016,
         open: 0,
         point: "2_00",
-        socketUrl: "wss://wss-room-us.queengame.io",
+        socketUrl: "wss://wss-room-us.candyhouse.vip",
         id: 1002,
         name: 1016,
-        url: "https://wss-room-us.queengame.io",
+        url: "https://wss-room-us.candyhouse.vip",
         type: 1
     },
     {
         area: 1018,
         open: 0,
         point: "3_00",
-        socketUrl: "wss://wss-room-jp.queengame.io",
+        socketUrl: "wss://wss-room-jp.candyhouse.vip",
         id: 1003,
         name: 1018,
-        url: "https://wss-room-jp.queengame.io",
+        url: "https://wss-room-jp.candyhouse.vip",
         type: 1
     },
     {
