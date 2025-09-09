@@ -6,7 +6,7 @@
  * @LastEditors: hjy
  * @LastEditTime: 2025-08-23 02:32:25
  */
-var game_version = "Version 0.1.0908.1";
+var game_version = "Version 0.1.0909.1";
 
 //Buffer
 // var Buffer_1 = require("buffer");
