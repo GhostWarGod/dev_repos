@@ -1171,7 +1171,7 @@ function EnterGame() {
 // export const axiosUrl = "http://192.168.90.68:8080"
 
 // 测试环境
-const axiosUrl = "https://sso.queengame.io";
+const axiosUrl = "https://sso.candyhouse.vip";
 
 // 正式环境
 // export const axiosUrl = "https://sso.cryptoarena.io"
