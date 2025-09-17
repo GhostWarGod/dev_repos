@@ -1,0 +1,41 @@
+
+img_fkren.png
+size: 359,152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 268, 68
+  size: 83, 82
+  orig: 83, 82
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 322, 4
+  size: 35, 62
+  orig: 37, 64
+  offset: 1, 1
+  index: -1
+12
+  rotate: true
+  xy: 2, 2
+  size: 148, 132
+  orig: 150, 134
+  offset: 1, 1
+  index: -1
+12_1
+  rotate: true
+  xy: 136, 10
+  size: 140, 130
+  orig: 140, 130
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 268, 8
+  size: 58, 52
+  orig: 60, 54
+  offset: 1, 1
+  index: -1
