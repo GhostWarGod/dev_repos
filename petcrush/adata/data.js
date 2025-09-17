@@ -4,7 +4,7 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-09-03 11:05:47
+ * @LastEditTime: 2025-09-17 14:48:52
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
 
