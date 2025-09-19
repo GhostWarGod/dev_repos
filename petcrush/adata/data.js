@@ -4,9 +4,9 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-09-17 14:48:52
+ * @LastEditTime: 2025-09-18 00:00:35
  */
-window.v_type = 1; //0=QA；1=S0; 2=SN;
+window.v_type = 0; //0=QA；1=S0; 2=SN;
 
 //服务器path
 window.server2 = "https://sso.cryptoarena.io"; //正式环境
