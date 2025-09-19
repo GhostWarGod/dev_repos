@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Crypto Pet Crush</title>
+    <title>CryptoSnake</title>
     <meta charset='utf-8' />
     <meta name='renderer' content='webkit' />
     <meta name='viewport'
@@ -40,7 +40,7 @@
     <script src="./qrcode.min.js"></script>
 </head>
 
-<body style="margin: 0;background: #000;color: #fff;">
+<body style="margin: 0;background: linear-gradient(to bottom, #133570, #1179b5);color: #fff;">
     <!-- Splash screen start -->
     <style type="text/css">
         #splash {
@@ -94,10 +94,10 @@
 
             display: block;
             width: 30%;
-            /* min-width: 150px; */
-            max-width: 300px;
+            /* min-width: 150px;
+            max-width: 300px; */
             position: absolute;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -106,7 +106,7 @@
             display: none;
         }
     </style>
-    <script src="adata/data.js?v=16"></script>
+    <script src="adata/data.js?v=23"></script>
     <!-- <script src='js/config/Config.js' loader='Config'></script> -->
 
     <div id="splash">
@@ -118,21 +118,11 @@
         </div>
     </div>
     <script>
-        function isMobile() {
-            l = navigator.userAgent.toLowerCase();
-            var _isMobile = /mobile|android|iphone|ipad/.test(l);
-            return _isMobile;
-        }
-
         (function () {
             let splash = document.getElementById('splash');
-            let sm = "vertical";
+            let sm = "horizontal";
             let du = parseInt("2000");
             let ss = performance.now();
-            if (!isMobile()) {
-                sm = "none";
-
-            }
 
             function fit() {
                 let flag = 0;
@@ -165,7 +155,6 @@
 
             function hide() {
                 // return;
-                // onStart();
                 window.removeEventListener("resize", fit);
                 delete window.hideSplashScreen;
 
@@ -189,57 +178,19 @@
     </script>
     <!-- Splash screen end -->
 
-    <script type="text/javascript" src="libs/laya.core-c57fe.js"></script>
-    <script type="text/javascript" src="libs/laya.webgl_2D-d4897.js"></script>
-    <script type="text/javascript" src="libs/laya.ui-01871.js"></script>
-    <script type="text/javascript" src="libs/laya.trailCommon-713e7.js"></script>
-    <script type="text/javascript" src="libs/laya.trail2D-d73fb.js"></script>
-    <script type="text/javascript" src="libs/laya.particleCommon-9ff06.js"></script>
-    <script type="text/javascript" src="libs/laya.particle-61280.js"></script>
-    <script type="text/javascript" src="libs/spine-core-3.8-e5a68.js"></script>
-    <script type="text/javascript" src="libs/laya.spine-d5751.js"></script>
-    <script type="text/javascript" src="libs/laya.ani-68f23.js"></script>
-    <script type="text/javascript" src="js/Config-26814.js"></script>
+    <script type="text/javascript" src="libs/laya.core-49773.js"></script>
+    <script type="text/javascript" src="libs/laya.ui-3489f.js"></script>
+    <script type="text/javascript" src="libs/laya.ani-b7554.js"></script>
+    <script type="text/javascript" src="libs/laya.spine-7e80a.js"></script>
+    <script type="text/javascript" src="libs/spine-core-3.8-85709.js"></script>
+    <script type="text/javascript" src="js/Config-30db8.js"></script>
+    <script type="text/javascript" src="js/bundle-31963.js"></script>
+    <script type="text/javascript" src="js/index-445ae.js"></script>
 
-    <script type="text/javascript" src="js/bundle-330a3.js"></script>
 
-    <script type="text/javascript">
-        Laya.LayaEnv.beforeInit = function (config) {
-            console.log(config);
 
-            console.log("Laya:", Laya);
 
-            if (!isMobile()) {
-                config.alignH = "center";
-                config.alignV = "top";
-                config.backgroundColor = "rgba(0, 0, 0, 0)";
-                config.designHeight = 1334;
-                config.designWidth = 750;
-                config.scaleMode = "showall";
-                config.screenMode = "none";
 
-                // console.log("mobile");
-                // let OutDiv = window.document.getElementById("layaContainer");
-                // if (OutDiv) {
-                //     OutDiv.style.left = "0px";
-                //     OutDiv.style.right = "0px";
-                //     // OutDiv.style.width = "500px";
-                //     OutDiv.style.width = "525px";
-                // }
-
-                // console.log("mobile", OutDiv);
-            } else {
-                config.alignH = "center";
-                config.alignV = "top";
-                config.backgroundColor = "rgba(0, 0, 0, 0)";
-                config.designHeight = 1334;
-                config.designWidth = 750;
-                config.scaleMode = "fixedauto";
-                config.screenMode = "vertical";
-            }
-        };
-    </script>
-    <script type="text/javascript" src="js/index-09421.js"></script>
 
 
     <button class="btn-copy" data-clipboard-text="">
@@ -345,7 +296,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script> -->
 
 
-    <!-- <script src="js/custom/crypto-js/crypto-js.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
 
     <link href="js/custom/head/cropper.min.css?id=1" rel="stylesheet">
     <link href="js/custom/head/sitelogo.css?id=1" rel="stylesheet">
@@ -591,15 +542,6 @@
     <style type="text/css">
         #chat-widget-container {
             display: none;
-        }
-    </style>
-    <style>
-        #layaContainer {
-            /* width: 500px; */
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            position: absolute;
         }
     </style>
 
