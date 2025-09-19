@@ -1,0 +1,20 @@
+
+img_ldxx.png
+size: 172,100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yf2
+  rotate: false
+  xy: 2, 2
+  size: 104, 96
+  orig: 107, 100
+  offset: 2, 2
+  index: -1
+yf3
+  rotate: true
+  xy: 108, 31
+  size: 67, 62
+  orig: 71, 65
+  offset: 2, 1
+  index: -1
