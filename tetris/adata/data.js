@@ -4,7 +4,7 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-09-03 11:05:47
+ * @LastEditTime: 2025-09-19 19:22:55
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
 
@@ -15,7 +15,7 @@ window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境
 
 window.server1 = "https://sso.candyhouse.vip"; //测试环境
 window.wsServer1 = "wss://wss-hall-1.candyhouse.vip"; //测试环境
-// window.address1 = "https://snake.candyhouse.vip"; //外网-s0-web地址 (线上测试)
+// window.address1 = "https://petcrush.candyhouse.vip"; //外网-s0-web地址 (线上测试)
 
 window.server0 = "http://13.250.6.10"; //开发环境
 window.wsServer0 = "ws://13.250.6.10:7055"; //开发服-qa-徐服务器
