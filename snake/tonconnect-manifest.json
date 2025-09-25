@@ -1,7 +1,7 @@
 {
-  "name": "Telegram Wallet",
-  "url": "https://snake.cryptoarena.io",  
-  "iconUrl": "https://cryptoarena.io/images/logo.jpg",
-  "termsOfUseUrl": "https://cryptoarena.io/terms.txt",
-  "privacyPolicyUrl": "https://cryptoarena.io/privacy.txt"
+    "name": "Telegram Wallet",
+    "url": "https://snake.cryptoarena.io",
+    "iconUrl": "https://cryptoarena.io/images/logo.jpg",
+    "termsOfUseUrl": "https://cryptoarena.io/terms.txt",
+    "privacyPolicyUrl": "https://cryptoarena.io/privacy.txt"
 }
