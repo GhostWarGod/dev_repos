@@ -14290,8 +14290,6 @@ function Medal() {
         const res = await http.get(`${axiosC2cUrl}/user/nft/reward-list`);
         if (res.code === 0) {
           const data = res.data;
-          console.log("data===>", data);
-          console.log("list===>", list);
           let updated = false;
           if (data !== list) {
             setList(data);
