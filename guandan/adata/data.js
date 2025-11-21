@@ -4,21 +4,48 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-11-17 15:38:26
+ * @LastEditTime: 2025-11-20 19:03:01
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
+window.gameId = 100004; //100001=贪吃蛇 100002=消消乐 100003=俄罗斯方块 100004=掼蛋 100005=麻将
 
 //服务器path
 window.server2 = "https://sso.cryptoarena.io"; //正式环境
 window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境
-// window.address2 = "https://snake.cryptoarena.io; //外网-sn-web地址 (线上正式)
+// window.address2 = "https://guandan.cryptoarena.io; //外网-sn-web地址 (线上正式)
+// window.address2 = "https://mahjong.cryptoarena.io; //外网-sn-web地址 (线上正式)
 
 window.server1 = "https://sso.candyhouse.vip"; //测试环境
 window.wsServer1 = "wss://wss-hall-1.candyhouse.vip"; //测试环境
-// window.address1 = "https://snake.candyhouse.vip"; //外网-s0-web地址 (线上测试)
+// window.address1 = "https://guandan.candyhouse.vip"; //外网-s0-web地址 (线上测试)
+// window.address1 = "https://mahjong.candyhouse.vip"; //外网-s0-web地址 (线上测试)
 
 window.server0 = "http://13.250.6.10"; //开发环境
 window.wsServer0 = "ws://13.250.6.10:7055"; //开发服-qa-徐服务器
+
+// 更新页面标题和图标
+function updatePage() {
+    var title, iconUrl;
+    if (window.gameId == 100004) {
+        title = "Crypto Guandan";
+        iconUrl = "favicon_100004.ico";
+    } else {
+        title = "Crypto Mahjong";
+        iconUrl = "favicon_100005.ico";
+    }
+    // 更新页面标题
+    document.title = title;
+
+    // 更新页面图标
+    let link = document.querySelector("link[rel*='icon']");
+    if (!link) {
+        link = document.createElement("link");
+        link.rel = "icon";
+        document.head.appendChild(link);
+    }
+    link.href = iconUrl;
+}
+updatePage();
 
 var nodeData = [
     {
