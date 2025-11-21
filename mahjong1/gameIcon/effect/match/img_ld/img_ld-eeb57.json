@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "mJIj4sjo/cuiLyBfzztPETZWfrw", "spine": "3.8.99", "x": -36.86, "y": -35.56, "width": 70.84, "height": 71.91 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "骨骼", "parent": "root", "x": -13, "y": 13, "scaleX": 3, "scaleY": 3 },
+	{ "name": "骨骼2", "parent": "root", "x": 18.98, "y": 21.34, "scaleX": 3, "scaleY": 3 },
+	{ "name": "骨骼3", "parent": "root", "x": 18.98, "y": -20.56, "scaleX": 3, "scaleY": 3 },
+	{ "name": "骨骼4", "parent": "root", "x": -21.6, "y": -20.56, "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "2", "bone": "骨骼", "attachment": "1" },
+	{ "name": "3", "bone": "骨骼2", "attachment": "1" },
+	{ "name": "4", "bone": "骨骼3", "attachment": "1" },
+	{ "name": "5", "bone": "骨骼4", "attachment": "1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"2": {
+				"1": { "x": -2.95, "y": 2.78, "width": 10, "height": 10 }
+			},
+			"3": {
+				"1": { "width": 10, "height": 10 }
+			},
+			"4": {
+				"1": { "width": 10, "height": 10 }
+			},
+			"5": {
+				"1": { "width": 10, "height": 10 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"2": {
+				"color": [
+					{ "color": "c4c4c4ff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "525252ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "c4c4c4ff" }
+				]
+			},
+			"3": {
+				"color": [
+					{ "color": "8b8b8bff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "c4c4c4ff", "curve": "stepped" },
+					{ "time": 1, "color": "525252ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "8b8b8bff" }
+				]
+			},
+			"4": {
+				"color": [
+					{ "color": "525252ff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "c4c4c4ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "525252ff" }
+				]
+			},
+			"5": {
+				"color": [
+					{ "color": "8a8a8aff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "525252ff", "curve": "stepped" },
+					{ "time": 1, "color": "c4c4c4ff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "8a8a8aff" }
+				]
+			}
+		}
+	}
+}
+}

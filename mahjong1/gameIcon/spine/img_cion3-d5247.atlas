@@ -1,0 +1,20 @@
+
+img_cion3.png
+size: 202,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a5
+  rotate: false
+  xy: 112, 16
+  size: 88, 92
+  orig: 92, 95
+  offset: 2, 2
+  index: -1
+x1
+  rotate: false
+  xy: 2, 2
+  size: 108, 106
+  orig: 128, 128
+  offset: 10, 11
+  index: -1
