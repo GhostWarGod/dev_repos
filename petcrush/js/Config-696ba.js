@@ -4,9 +4,9 @@
  * @Author: hjy
  * @Date: 2025-04-22 14:02:12
  * @LastEditors: hjy
- * @LastEditTime: 2025-11-14 18:22:29
+ * @LastEditTime: 2025-11-26 18:35:48
  */
-var game_version = "Version 0.1.1114.2";
+var game_version = "Version 0.1.1126.2";
 
 //Buffer
 // var Buffer_1 = require("buffer");
