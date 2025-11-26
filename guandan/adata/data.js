@@ -4,11 +4,10 @@
  * @Author: hjy
  * @Date: 2025-05-29 11:25:02
  * @LastEditors: hjy
- * @LastEditTime: 2025-11-20 19:03:01
+ * @LastEditTime: 2025-11-21 20:01:40
  */
 window.v_type = 1; //0=QA；1=S0; 2=SN;
 window.gameId = 100004; //100001=贪吃蛇 100002=消消乐 100003=俄罗斯方块 100004=掼蛋 100005=麻将
-
 //服务器path
 window.server2 = "https://sso.cryptoarena.io"; //正式环境
 window.wsServer2 = "wss://wss-hall-1.cryptoarena.io"; //正式环境
