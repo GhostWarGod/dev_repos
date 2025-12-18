@@ -25,8 +25,8 @@ window.wsServer0 = "ws://13.250.6.10:7055"; //开发服-qa-徐服务器
 // 更新页面标题和图标
 function updatePage() {
     var title, iconUrl;
-    if (window.gameId == 100004) {
-        title = "Crypto Guandan";
+    if (window.gameId == 100007) {
+        title = "斗地主";
         iconUrl = "favicon_100004.ico";
     } else {
         title = "Crypto Mahjong";
