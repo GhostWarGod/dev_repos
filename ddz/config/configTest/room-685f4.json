@@ -1,0 +1,1046 @@
+[
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100001,
+        "id": 1,
+        "time": 0,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100001,
+        "id": 2,
+        "time": 0,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100001,
+        "id": 3,
+        "time": 0,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100001,
+        "id": 4,
+        "time": 0,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100001,
+        "id": 5,
+        "time": 0,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100001,
+        "id": 6,
+        "time": 0,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100001,
+        "id": 7,
+        "time": 0,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100001,
+        "id": 8,
+        "time": 0,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 0,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100001,
+        "id": 9,
+        "time": 0,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100002,
+        "id": 101,
+        "time": 93,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100002,
+        "id": 102,
+        "time": 93,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 2,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100002,
+        "id": 103,
+        "time": 93,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100002,
+        "id": 104,
+        "time": 93,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100002,
+        "id": 105,
+        "time": 93,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100002,
+        "id": 106,
+        "time": 93,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100002,
+        "id": 107,
+        "time": 93,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 1,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100002,
+        "id": 108,
+        "time": 93,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 1,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 12000,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100002,
+        "id": 109,
+        "time": 93,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 1,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100003,
+        "id": 201,
+        "time": 604,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100003,
+        "id": 202,
+        "time": 604,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100003,
+        "id": 203,
+        "time": 604,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100003,
+        "id": 204,
+        "time": 604,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100003,
+        "id": 205,
+        "time": 604,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100003,
+        "id": 206,
+        "time": 604,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100003,
+        "id": 207,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100003,
+        "id": 208,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100003,
+        "id": 209,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100004,
+        "id": 301,
+        "time": 604,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100004,
+        "id": 302,
+        "time": 604,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100004,
+        "id": 303,
+        "time": 604,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100004,
+        "id": 304,
+        "time": 604,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100004,
+        "id": 305,
+        "time": 604,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100004,
+        "id": 306,
+        "time": 604,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100004,
+        "id": 307,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100004,
+        "id": 308,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100004,
+        "id": 309,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100005,
+        "id": 401,
+        "time": 604,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100005,
+        "id": 402,
+        "time": 604,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100005,
+        "id": 403,
+        "time": 604,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100005,
+        "id": 404,
+        "time": 604,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100005,
+        "id": 405,
+        "time": 604,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100005,
+        "id": 406,
+        "time": 604,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100005,
+        "id": 407,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100005,
+        "id": 408,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100005,
+        "id": 409,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 1,
+        "gameId": 100007,
+        "id": 501,
+        "time": 604,
+        "level": 1,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100007,
+        "id": 502,
+        "time": 604,
+        "level": 1,
+        "count": 150,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100007,
+        "id": 503,
+        "time": 604,
+        "level": 1,
+        "count": 60,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 2,
+        "gameId": 100007,
+        "id": 504,
+        "time": 604,
+        "level": 1,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            8
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 3,
+        "gameId": 100007,
+        "id": 505,
+        "time": 604,
+        "level": 5,
+        "count": 30,
+        "ticketAmount": [
+            1,
+            15
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 4,
+        "gameId": 100007,
+        "id": 506,
+        "time": 604,
+        "level": 10,
+        "count": 20,
+        "ticketAmount": [
+            1,
+            20
+        ],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 5,
+        "gameId": 100007,
+        "id": 507,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 6,
+        "gameId": 100007,
+        "id": 508,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [
+            1,
+            10
+        ],
+        "stageId": 0,
+        "minTicketAmount": [
+            1,
+            10
+        ],
+        "ticketType": [
+            10,
+            29
+        ]
+    },
+    {
+        "initHp": 20000,
+        "team": 0,
+        "roomType": 7,
+        "gameId": 100007,
+        "id": 509,
+        "time": 604,
+        "level": 0,
+        "count": 0,
+        "ticketAmount": [],
+        "stageId": 0,
+        "minTicketAmount": [],
+        "ticketType": []
+    }
+]
