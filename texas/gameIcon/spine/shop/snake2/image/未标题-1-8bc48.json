@@ -1,0 +1,36 @@
+{ "skeleton": { "images": "D:/ED哥11.8/egg/image/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "dankeyin04", "bone": "root", "attachment": "dankeyin04" },
+	{ "name": "dankeyin01", "bone": "root", "attachment": "dankeyin01" },
+	{ "name": "dankeyin02", "bone": "root", "attachment": "dankeyin02" },
+	{ "name": "dankeyin03", "bone": "root", "attachment": "dankeyin03" },
+	{ "name": "dankeyin05", "bone": "root", "attachment": "dankeyin05" },
+	{ "name": "dankeyin06", "bone": "root", "attachment": "dankeyin06" }
+],
+"skins": {
+	"default": {
+		"dankeyin04": {
+			"dankeyin04": { "x": 34, "y": -81, "width": 68, "height": 102 }
+		},
+		"dankeyin01": {
+			"dankeyin01": { "x": 83.5, "y": -101.5, "width": 83, "height": 61 }
+		},
+		"dankeyin02": {
+			"dankeyin02": { "x": 81.5, "y": -47, "width": 81, "height": 96 }
+		},
+		"dankeyin03": {
+			"dankeyin03": { "x": 145.5, "y": -71.5, "width": 73, "height": 139 }
+		},
+		"dankeyin05": {
+			"dankeyin05": { "x": 181.5, "y": -102, "width": 27, "height": 64 }
+		},
+		"dankeyin06": {
+			"dankeyin06": { "x": 97.5, "y": -179.5, "width": 197, "height": 145 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

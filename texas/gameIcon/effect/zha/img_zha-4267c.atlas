@@ -1,0 +1,146 @@
+
+img_zha.png
+size: 1515,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baozha/yan_00
+  rotate: false
+  xy: 1441, 88
+  size: 59, 79
+  orig: 167, 167
+  offset: 54, 28
+  index: -1
+baozha/yan_01
+  rotate: true
+  xy: 1421, 169
+  size: 121, 92
+  orig: 167, 167
+  offset: 23, 27
+  index: -1
+baozha/yan_02
+  rotate: false
+  xy: 158, 13
+  size: 126, 120
+  orig: 167, 167
+  offset: 20, 19
+  index: -1
+baozha/yan_03
+  rotate: false
+  xy: 968, 147
+  size: 161, 143
+  orig: 167, 167
+  offset: 0, 9
+  index: -1
+baozha/yan_04
+  rotate: false
+  xy: 2, 135
+  size: 166, 155
+  orig: 167, 167
+  offset: 0, 3
+  index: -1
+baozha/yan_05
+  rotate: false
+  xy: 170, 135
+  size: 166, 155
+  orig: 167, 167
+  offset: 0, 3
+  index: -1
+baozha/yan_06
+  rotate: false
+  xy: 338, 137
+  size: 165, 153
+  orig: 167, 167
+  offset: 0, 4
+  index: -1
+baozha/yan_07
+  rotate: false
+  xy: 505, 137
+  size: 153, 153
+  orig: 167, 167
+  offset: 7, 4
+  index: -1
+baozha/yan_08
+  rotate: false
+  xy: 660, 139
+  size: 153, 151
+  orig: 167, 167
+  offset: 6, 5
+  index: -1
+baozha/yan_09
+  rotate: false
+  xy: 815, 142
+  size: 151, 148
+  orig: 167, 167
+  offset: 6, 7
+  index: -1
+baozha/yan_10
+  rotate: false
+  xy: 1131, 150
+  size: 150, 140
+  orig: 167, 167
+  offset: 6, 9
+  index: -1
+baozha/yan_11
+  rotate: false
+  xy: 1131, 12
+  size: 150, 136
+  orig: 167, 167
+  offset: 6, 8
+  index: -1
+baozha/yan_12
+  rotate: false
+  xy: 815, 4
+  size: 151, 136
+  orig: 167, 167
+  offset: 6, 8
+  index: -1
+baozha/yan_13
+  rotate: true
+  xy: 1283, 138
+  size: 152, 136
+  orig: 167, 167
+  offset: 6, 8
+  index: -1
+baozha/yan_14
+  rotate: false
+  xy: 660, 2
+  size: 153, 135
+  orig: 167, 167
+  offset: 6, 8
+  index: -1
+baozha/yan_15
+  rotate: false
+  xy: 2, 5
+  size: 154, 128
+  orig: 167, 167
+  offset: 6, 15
+  index: -1
+baozha/yan_16
+  rotate: false
+  xy: 495, 5
+  size: 155, 130
+  orig: 167, 167
+  offset: 6, 14
+  index: -1
+baozha/yan_17
+  rotate: false
+  xy: 338, 4
+  size: 155, 131
+  orig: 167, 167
+  offset: 6, 13
+  index: -1
+baozha/yan_18
+  rotate: false
+  xy: 1283, 4
+  size: 156, 132
+  orig: 167, 167
+  offset: 6, 13
+  index: -1
+baozha/yan_19
+  rotate: false
+  xy: 968, 11
+  size: 156, 134
+  orig: 167, 167
+  offset: 6, 12
+  index: -1
