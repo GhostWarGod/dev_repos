@@ -1,13 +1,4 @@
-/*
- * @Descripttion:
- * @version:
- * @Author: hjy
- * @Date: 2024-04-09 13:06:24
- * @LastEditors: hjy
- * @LastEditTime: 2025-05-29 11:28:57
- * @Description:
- */
-var _hmt = _hmt || [];
+﻿var _hmt = _hmt || [];
 (function () {
     var hm = document.createElement("script");
     hm.src = "https://hm.baidu.com/hm.js?2f2e17b82f91b88a0a99db7ccba4eca4";
